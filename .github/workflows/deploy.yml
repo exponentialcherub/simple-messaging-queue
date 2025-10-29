@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   deploy:
-    uses: exponentialcherub/deploy-pi/.github/workflows/deploy-pi.yml@v1.0.2
+    uses: exponentialcherub/deploy-pi/.github/workflows/deploy-pi.yml@v1.0.3
     with:
       app-name: "queue"
       startup-cmd: "go run queue.go"
