@@ -7,7 +7,7 @@ jobs:
   deploy:
     uses: exponentialcherub/deploy-pi/.github/workflows/deploy-pi.yml@v1.0.5
     with:
-      app-name: "queue"
+      app-name: "simple-messaging-queue"
       startup-cmd: "go run queue.go"
       branch: "main"
     secrets: inherit
